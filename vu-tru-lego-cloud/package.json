@@ -1,0 +1,9 @@
+{
+  "name": "vu-tru-lego-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vũ Trụ LEGO storefront and lightweight product manager",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.4"
+  }
+}

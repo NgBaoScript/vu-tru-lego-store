@@ -8,4 +8,4 @@ compatibility_date = "2025-01-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "vu-tru-lego-db"
-database_id = "00000000-0000-0000-0000-000000000000"
+database_id = "4165d2c3-091a-4142-9fd3-7e3482700e30"

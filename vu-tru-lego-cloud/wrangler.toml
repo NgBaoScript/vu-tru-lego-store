@@ -1,0 +1,11 @@
+name = "vu-tru-lego"
+pages_build_output_dir = "public"
+compatibility_date = "2025-01-01"
+
+# Kết nối Cloudflare D1 (SQLite)
+# Khi tạo D1 bằng `npx wrangler d1 create vu-tru-lego-db`, thay `database_id` bên dưới
+# hoặc gắn trực tiếp trên giao diện Cloudflare Dashboard (Settings -> Functions -> D1 database bindings -> Variable name: DB)
+[[d1_databases]]
+binding = "DB"
+database_name = "vu-tru-lego-db"
+database_id = "4165d2c3-091a-4142-9fd3-7e3482700e30"
